@@ -1,3 +1,5 @@
 [theme]
-primaryColor = "#F63366"
-backgroundColor = "black"
+primaryColor="#ff0000" # 赤
+backgroundColor="#000000" # 黒
+secondaryBackgroundColor="#696969" # ダークグレー
+textColor="#FFFFFF" # 白
