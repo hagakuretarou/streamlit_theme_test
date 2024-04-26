@@ -13,7 +13,7 @@ def nouns_maker(text):
     nouns = " ".join(noun_list)
     return nouns
 if st.button("Create WordCloud"):
-    wc = WordCloud(width=740, height=520,font_path="ipaexg.ttf",min_font_size=15,max_font_size=60,colormap="YlGn")
+    wc = WordCloud(width=740, height=520,font_path="ipaexg.ttf",min_font_size=15,max_font_size=110,colormap="YlGn")
     wc.generate(nouns_maker(text))
     wc.to_file('result.png')
     st.image("result.png")
