@@ -2,7 +2,7 @@ import streamlit as st
 from wordcloud import WordCloud
 from janome.tokenizer import Tokenizer
 st.title("Word Cloud Maker")
-text = st.text_input("Enter text")
+text = st.text_input("ワードクラウドにしたい文章を入れてね。（500文字以上推奨。）")
 def nouns_maker(text):
     tokenizer = Tokenizer()
     noun_list = []
